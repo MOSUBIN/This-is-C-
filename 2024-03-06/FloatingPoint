@@ -1,0 +1,24 @@
+using System;
+using System.CodeDom;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            float a = 3.145_9265_3589_7932_3846f;
+            //  float 형식 변수에 값을 직접 할당하려면 숫자 뒤에 f를 붙여줘야함.
+
+            Console.WriteLine(a);
+
+            double b = 3.145_9265_3589_7932_3846;
+            Console.WriteLine(b);
+        }
+    }
+}
